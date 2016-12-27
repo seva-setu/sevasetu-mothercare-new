@@ -1,0 +1,8 @@
+mysql:
+    image: mysql:latest
+    command: --skip-name-resolve
+    environment:
+        DB_URL: "mysql://root:boot@mysql/danske_bank?charset=utf8&use_unicode=0"
+        MYSQL_ROOT_PASSWORD: "boot"
+    ports:
+        - "3306"

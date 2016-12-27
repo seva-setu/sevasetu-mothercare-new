@@ -1,0 +1,9 @@
+python-json-logger
+bottle
+requests>=2.11.1
+SQLAlchemy
+webtest
+nose
+mock
+jsonschema
+waitress
